@@ -3,19 +3,12 @@ import './style.scss'
 import Swiper from 'swiper';
 import {
 	Navigation,
-	EffectFade,
-	Pagination,
-	Thumbs,
-	Controller,
+	 
 	FreeMode,
-	Scrollbar,
-	A11y,
-	Mousewheel,
-	Grid,
-	Autoplay
+	 
 } from 'swiper/modules';
 //swiper для 3 карточек во втором блоке
-const swiper = new Swiper('#why_slider', {
+const swiper =()=> new Swiper('#why_slider', {
      
    /*  slidesPerView: "auto", */
     slidesPerView: 1.5,
@@ -32,7 +25,8 @@ const swiper = new Swiper('#why_slider', {
 	  },
      
   }); 
-const swiperFeedback = new Swiper('#feedback_slider', {
+  swiper()
+const swiperFeedback = () => new Swiper('#feedback_slider', {
      
    /*  slidesPerView: "auto", */
     slidesPerView: 4,
@@ -49,12 +43,12 @@ const swiperFeedback = new Swiper('#feedback_slider', {
 	  },
      
   }); 
-   
+   swiperFeedback()
 	let main_work: HTMLElement = document.querySelector('.what_work_col')!
 	let box_work : HTMLElement = main_work?.querySelector('.what_work_col_right')!
 	let list_Work: NodeListOf<Element> = box_work.querySelectorAll('.what_work_col_box')
 	console.log(list_Work)
-	list_Work.forEach(el => el.addEventListener('click', e => openListWork(el as HTMLElement)))
+	list_Work.forEach(el => el.addEventListener('click', () => openListWork(el as HTMLElement)))
 	let countWork: number = 0;
 	let lastWork:  HTMLElement;
 	function openListWork(el: HTMLElement){
