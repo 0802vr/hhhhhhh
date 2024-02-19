@@ -1,0 +1,140 @@
+.feedback {
+    margin: 180px 0;
+    position: relative;
+}
+.container {
+}
+.feedback_title {
+    color: #FEF8E2;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.40);
+    font-family: "MursGothic";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 105%; /* 67.2px */
+    letter-spacing: -1.28px;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+    z-index: 2;
+    position: relative;
+}
+.feedback_box {
+    display: flex;
+    
+}
+.feedback_item {
+    min-width: 432px;
+    min-height: 452px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #212121;
+    background: #F266BF;
+    padding: 25px;
+    z-index: 2;
+    &:nth-child(4n + 1) {
+        rotate: -15deg;
+    }
+    &:nth-child(4n + 2) {
+        rotate: 0deg;
+        background: #02BEFE;
+    }
+    &:nth-child(4n + 3) {
+        rotate: 15deg;
+        background:#8A69D4;
+    }
+    &:nth-child(4n + 4) {
+        rotate: 0deg;
+        background:#D67400;
+    }
+}
+.feedback_item_text{
+    color: #FEF8E2;
+    font-family: Inter;
+    text-align: start;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 19.8px */
+    letter-spacing: -0.36px;
+    z-index: 2;
+    position: relative;
+}
+.feedback_lenta {
+    position: absolute;
+    bottom: -170px;
+    left: 5%;
+}
+.feedback_lenta_2 {
+    position: absolute;
+    top: -100px;
+    left:60%;
+}
+.feedback_pencil {
+    position: absolute;
+    top: -80px;
+    left: 160px;
+    z-index: 3;
+}
+ 
+.feedback_item_box_col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+ 
+.feedback_item_box_row {
+    display: flex;
+     
+    gap: 10px;
+}
+.feedback_item_box_list {
+    display: flex;     
+    flex-direction: column;
+    gap: 10px;
+    text-align: start;
+}
+.feedback_img_face {
+    object-fit: contain;
+}
+.feedback_item_box_list_el{
+    display: flex;
+    gap: 1%;
+}
+.feedback_item_box_list_title {
+    color: #FEF8E2;
+    font-family: Inter;
+    text-align: start;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    opacity: .6;
+    width: 49%;
+}
+ 
+.feedback_item_box_list_text {
+    color: #FEF8E2;
+    font-family: Inter;
+    text-align: start;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;  
+    width: 50%;
+}
+.feedback_prev {
+    position: absolute;
+    bottom: -120px;
+    left: calc(50% - 80px);
+    cursor: pointer;
+}
+.feedback_next {
+    position: absolute;
+    bottom: -120px;
+    left: calc(50% - 80px);
+    margin-left: 80px;
+    cursor: pointer;
+}

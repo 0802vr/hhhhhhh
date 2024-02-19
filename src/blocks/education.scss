@@ -1,0 +1,128 @@
+.education {
+    
+}
+.container {
+}
+.education_box {
+    display: flex;
+    padding: 0 40px;
+}
+.education_box_subtitle {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 20px */
+    opacity: .8;
+     
+    text-align: start;
+}
+.education_title {
+    color: #FEF8E2;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.40);
+    font-family: "MursGothic";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 105%; /* 67.2px */
+    letter-spacing: -1.28px;
+    text-transform: uppercase;
+    text-align: start;
+    margin-left: calc(25% - 132px);
+    max-width: 624px;
+}
+.education_box_text {
+    margin-left: 25%;
+    margin-bottom: 40px;
+    max-width: 428px;
+    text-align: start;
+    margin-top: 20px;
+    color: #FEF8E2;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 22px */
+}
+.education_items {
+    &:last-child {
+        border-bottom: rgba(255, 255, 255, 0.30) 3px solid;
+    }
+}
+.education_item {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    border-top: rgba(255, 255, 255, 0.30) 3px solid;
+    cursor: pointer;
+    
+    &:hover {
+        background: #F266BF;
+        transition: background .4s linear;
+        .education_item_img {
+            rotate: -90deg;
+            transition: rotate .4s linear;
+        }
+        .education_item_btn {
+            border-radius: 60px;
+            border: 1px solid rgba(254, 248, 226, 0.60);
+            background: rgba(254, 153, 196, 0.55);
+         }
+
+    }
+}
+.education_item_btn_box {
+    width: 25%;
+    text-align: start;
+}
+.education_item_btn {
+     
+    height: 35px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    color: #FEF8E2;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 16.8px */
+    text-transform: uppercase;
+    border-radius: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: #02BEFE;
+     
+}
+.education_item_btn_dip {
+
+}
+.education_item_btn_serf {
+    border-radius: 60px;
+    border: 1px solid rgba(254, 248, 226, 0.60);
+    background: rgba(254, 153, 196, 0.55);
+}
+.education_item_btn_udo {
+    border-radius: 60px;
+    border: 1px solid rgba(254, 248, 226, 0.60);
+    background: #C180FF;
+}
+.education_item_box {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+.education_item_text {
+    color: #FEF8E2;
+    font-family: "MursGothic";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%; /* 26.4px */
+    max-width: 550px;
+    text-align: start;
+}
+.education_item_img {
+    text-align: end;
+}

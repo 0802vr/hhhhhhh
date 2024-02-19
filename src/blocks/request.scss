@@ -1,0 +1,194 @@
+.requst {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    .container {
+    }
+}
+
+.requst_cont {
+    border-radius: 40px;
+    background: #FF65C7;
+    position: relative;
+    display: flex;
+    padding: 50px;
+    overflow: hidden;
+    border: 1px solid #212121;
+    box-shadow: 10px 10px 0 0 #212121;
+}
+.requst_img_1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+.requst_img_2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+.requst_box_left {
+    width: 50%;
+    text-align: start;
+}
+.requst_title {
+    color: #FEF8E2;
+    font-family: "MursGothic";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%; /* 52px */
+    text-transform: uppercase;
+}
+.requst_subtitle {
+    color: #FEF8E2;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 24px */
+    letter-spacing: -0.4px;
+    max-width: 397px;
+}
+.requst_box_right {
+    width: 50%;
+    text-align: start;
+    z-index: 2;
+}
+.requst_form_box {
+}
+.requst_form_title {
+    color: #FEF8E2;
+    font-family: "MursGothic";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 26.4px */
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.requst_form_box_col {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    
+}
+.requst_form_box_col_last {
+    margin-bottom: 30px;
+}
+.form_input {
+    width: 100%;
+    height: 46px;
+    padding: 10px 20px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #212121;
+    background: #FEF8E2;
+    color: rgba(33, 33, 33, 0.40);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 19.2px */
+    width: 50%;
+     
+}
+.requst_form_box_row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.requst_box_btn {
+     
+    height: 38px;
+    padding: 4px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.60);
+    opacity: 0.6;
+    background: none;
+    cursor: pointer;
+}
+.requst_box_btn_active {
+    border-radius: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    background: #01B0B3;
+    opacity: 1;
+}
+.requst_form_box_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 80%;
+    margin-bottom: 20px;
+
+}
+.requst_form_submit_btn {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #2121213f;
+    background: #ffb2e2;
+    color: #2121213f;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 86%; /* 17.2px */
+    box-shadow: 6px 6px 0 0 #2121213f;
+}
+.requst_form_input_checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+     
+
+}
+.requst_form_input_checkbox+.requst_form_input_label::before {
+    content: '';
+    display: inline-block;
+    width: 19px;
+    height: 18px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #212121;     
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+    margin-right: 8px;
+     
+    background-color: #FEF8E2;
+}
+.requst_form_input_checkbox:checked+.requst_form_input_label::before {
+    border-color: #212121;     
+    background-image: url("../img/ok.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 12px;
+     
+  }
+.requst_form_input_label {
+    color: #FEF8E2;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: underline;
+    display: flex;
+    cursor: pointer;
+}

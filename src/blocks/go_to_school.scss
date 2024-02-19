@@ -1,0 +1,153 @@
+.go_to_school {
+    margin: 152px 0;
+    position: relative;
+    overflow: hidden;
+    .container {
+        
+         
+    }
+}
+.go_to_school_list {
+    border-radius: 25px;
+    border: 1px solid #212121;
+    background: #59C8EE;
+    padding: 60px 112px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.go_to_school_box {
+    z-index: 2;
+    
+}
+.go_to_school_title {
+    color: #FEF8E2;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 20px */
+    margin-bottom: 15px;
+}
+.go_to_school_subtitle {
+    color: #FEF8E2;
+    max-width: 863px;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.40);
+    font-family: "MursGothic";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 105%; /* 50.4px */
+    letter-spacing: -0.96px;
+    text-transform: uppercase;
+    span {
+        color: #FECD1F;
+    }
+}
+.go_to_school_box_row {
+    display: flex;
+    gap: 10px;
+}
+.go_to_school_box_items {
+    border-radius: 15px;
+    border: 1px solid #212121;
+    background: #FF90BF;
+    padding: 64px 101px;
+     
+    &:nth-child(2) {
+        border-radius: 15px;
+        border: 1px solid #212121;
+        background: #8A69D4;
+         
+    }
+}
+.go_to_school_box_text {
+    color: #FEF8E2;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 24px */
+}
+.go_to_school_box_time {
+    
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #464646;
+    font-family: "MursGothic";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 33.6px */
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    span {
+        color: #FECD1F;
+    }
+}
+.go_to_school_box_time_text {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 17.6px */
+}
+.go_to_school_btn {
+    display: flex;
+    min-width: 524px;
+    height: 45px;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 86%; /* 15.48px */
+    letter-spacing: -0.36px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 1px solid #212121;
+    background: #FF45BB;
+    box-shadow: 6px 6px #212121;
+    transition: all .4s;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+        border: 1px solid #212121;
+        background: #FEF8E2;
+        color: #212121;
+    
+    }
+}
+.go_to_school_lenta {
+    position: absolute;
+    right: -232px;
+    bottom: 152px;
+}
+.go_to_school_book {
+    position: absolute;
+    top: -20px;
+    right: 0;
+}
+.go_to_school_box_img {
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    z-index: 3;
+}
+.go_to_school_bookApple {
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+    z-index: 3;
+}

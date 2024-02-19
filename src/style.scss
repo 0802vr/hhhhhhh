@@ -1,0 +1,92 @@
+:root {
+  font-family: Inter, Helvetica;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #6E60D3;
+  font-synthesis: none;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  
+}
+
+@font-face {
+	font-family: 'MursGothic'; 
+	src: local('MursGothic'),
+		url(./font/MursGothic-WideDark.ttf); 
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FEF8E2;;
+  border-radius: 10px;
+}
+ 
+body, html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: MursGothic;
+  display: flex;
+  overflow-x: hidden;
+
+  flex-direction: column;
+  min-width: 320px;
+  /* min-height: 100vh; */
+}
+*,:after,:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+footer, header {
+  -webkit-box-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+}
+main {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+  text-align: center;
+}
+.why {
+  font-size: 88px;
+}
+@import url(./blocks/header.scss); 
+@import url(./blocks/main_banner.scss); 
+@import url(./blocks/why.scss); 
+@import url(./blocks/what_work.scss); 
+@import url(./blocks/princup.scss); 
+@import url(./blocks/programm.scss); 
+@import url(./blocks/about_me.scss); 
+@import url(./blocks/about_video.scss); 
+@import url(./blocks/go_to_school.scss); 
+@import url(./blocks/education.scss); 
+@import url(./blocks/request.scss); 
+@import url(./blocks/feedback.scss); 
+@import url(./blocks/footer.scss); 
+ 
+
+ 

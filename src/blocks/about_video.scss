@@ -1,0 +1,82 @@
+.about_video {
+    .container {
+    }
+}
+
+.about_video_box {
+    position: relative;
+}
+.about_video_box_subtitle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 20px */
+}
+.about_video_box_title {
+    color: #FEF8E2;
+    text-indent: 25%;
+    text-align: start;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.40);
+    font-family: "MursGothic";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 105%; /* 67.2px */
+    letter-spacing: -1.28px;
+    text-transform: uppercase;
+    span {
+        color: #FECD1F;
+    }
+}
+.about_video_box_link {
+    color: #FF65C7;
+}
+.about_video_items {
+    display: flex;
+    padding-left: 40px;
+   
+}
+.about_video_item_left {
+    width: 25%;
+}
+.about_video_item_right {
+    width: 75%;
+    overflow-x: scroll;
+    scrollbar-width: 0;
+    scroll-behavior: smooth;
+    /* use this property to hide the scrollbar on firefox */
+    scrollbar-width: none;
+    /* *:not(.excluded-element)::-webkit-scrollbar { display: none; } */
+}
+.about_video_item_right::-webkit-scrollbar {
+    display: none;
+}
+ 
+.about_video_items_list {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+     
+}
+.about_video_item {
+    height: 500px;
+    min-width: 318px;
+    
+    background:#FEF8E2;
+    border-radius: 15px;
+    border: 1px solid #212121;
+     
+    }
+.about_video_item_active {
+    min-width: 486px;
+     
+    height: 764px;
+    box-shadow: 10px 10px 0 0 #212121;
+}

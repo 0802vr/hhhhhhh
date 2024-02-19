@@ -1,0 +1,67 @@
+.footer {
+    border-top:#FEF8E2 1px solid;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.footer_box {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 24%;
+     
+}
+.footer_box_last {
+    gap: 20px;
+    text-align: end;
+    
+}
+.footer_subtitle_logo {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 110%; /* 15.4px */
+    margin-top: 10px;
+}
+.footer_box_links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer_link {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 17.6px */
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.footer_box_links_line_up {
+    color: #FFF;
+    font-family: "MursGothic";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 24px */
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+.footer_contact {
+    color: #FFF;
+    font-family: "MursGothic";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 24px */
+    text-decoration: none;
+    cursor: pointer;
+}

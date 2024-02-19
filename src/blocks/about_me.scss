@@ -1,0 +1,102 @@
+.about_me {
+    position: relative;
+    overflow: hidden;
+    padding-top: 77px;
+    margin-bottom: 150px;
+    .container {
+        position: relative;
+    }
+}
+.about_me_title {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 20px */
+    margin-bottom: 25px;
+
+}
+ 
+ 
+.about_me_box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.about_me_box_item {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 36px;
+    margin-top: -10px;
+    z-index: 2;
+    
+}
+.about_me_box_text {
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 22px */
+    text-align: end;
+    max-width: 265px;
+    padding-bottom: 36px;
+}
+.about_me_box_text_right {
+    text-align: start;
+     
+}
+.about_me_box_img {
+     position: relative;
+}
+.about_me_box_img_main {
+    
+    border-radius: 60px 20px;
+    box-shadow:1px 1px 0 0 #212121, 8px 8px 0 0 #01B0B3, 9px 9px 0 0 #212121,  17px 17px 0 0 #FF65C7, 18px 18px 0 0 #212121;
+}
+.about_me_box_title {
+}
+.about_me_box_img_medal {
+    position: absolute;
+    z-index: 2;
+    top: -150px;
+    right: -150px;
+}
+.about_me_atomic {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    z-index: 3;
+    animation: atomic 20s linear infinite;
+}
+.about_me_atomic2 {
+    position: absolute;
+    bottom: 150px;
+    left: -50px;
+    z-index: 3;
+    animation: atomic2 20s linear infinite;
+}
+@keyframes atomic {
+	from { 	transform: rotate(360deg) translateX(150px) translateY(150px); }
+	to   {  transform: rotate(0deg) translateX(150px) translateY(150px); }
+}
+@keyframes atomic2 {
+	from { 	transform: rotate(0deg) translateX(-150px) translateY(-150px); }
+	to   {  transform: rotate(360deg) translateX(-150px) translateY(-150px); }
+}
+.about_me_planet {
+    position: absolute;
+    bottom: 600px;
+    left: 300px;
+    z-index: 1;
+}
+.princip_planet2 {
+    position: absolute;
+    bottom: 250px;
+    left: -50px;
+    z-index: 1;
+}
+ 
