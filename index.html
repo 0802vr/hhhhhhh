@@ -10,8 +10,8 @@
 
 
     <title>Anlandia</title>
-    <script type="module" crossorigin src="./assets/index-0phOKyon.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-ge0ZMhhv.css">
+    <script type="module" crossorigin src="./assets/index-czBnzZ_l.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-F3Yx2YJg.css">
   </head>
   <body>
      
@@ -1332,16 +1332,16 @@
         <p class="requst_subtitle">Оставьте Ваши контактные данные и&nbsp;я&nbsp;свяжусь&nbsp;с вами в ближайшее время</p>
       </div>
       <div class="requst_box_right">
-        <form action="">
+        <form action="" class="form">
           <div class="requst_form_box">
             <h6 class="requst_form_title">Контактные данные</h6>
             <div class="requst_form_box_col">
-              <input class="form_input" type="text" name="parents" placeholder="Имя родителя">
-              <input class="form_input" type="text" name="telephon" placeholder="Номер телефона">
+              <input class="form_input popup__input" type="text" name="parents" placeholder="Имя родителя" minlength="2" required>
+              <input class="form_input popup__input" type="tel" name="telephon" placeholder="Номер телефона" minlength="6" required>
             </div>
             <div class="requst_form_box_col requst_form_box_col_last">
-              <input class="form_input" type="text" name="age" placeholder="Возраст ребенка">
-              <input class="form_input" type="text" name="email" placeholder="Почта">
+              <input class="form_input popup__input" type="text" name="age" placeholder="Возраст ребенка" minlength="1" required>
+              <input class="form_input popup__input" type="email" name="email" placeholder="Почта" minlength="6" required>
             </div>
           </div>
           <div class="requst_form_box">
@@ -1363,12 +1363,11 @@
            </div>
           </div>
           <div class="requst_form_box">
-            <input class="requst_form_input_checkbox" type="checkbox" id="checkbox">
+            <input class="requst_form_input_checkbox checkbox_input" type="checkbox" id="checkbox">
             <label class="requst_form_input_label" for="checkbox">Даю согласие на обработку <span>персональных данных</span></label>
           </div>
-          <button type="submit" class="requst_form_submit_btn">Записаться на консультацию</button>
-          
-
+          <button type="submit" class="requst_form_submit_btn popup__save popup__save_disabled" disabled>Записаться на консультацию</button>
+           
         </form>
       </div>
     </div>
